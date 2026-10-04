@@ -161,6 +161,7 @@ O fluxo geral previsto para o sistema é:
         |                    |
         v                    v
 [Banco de Dados]     [Google Books API]
+```
 
 *# 5. Decisões relevantes
 
