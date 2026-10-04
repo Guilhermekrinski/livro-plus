@@ -1,0 +1,31 @@
+@startuml
+
+title Arquitetura do Sistema - Livro+
+
+actor "Usuário/Leitor" as Usuario
+actor "Administrador/Bibliotecário" as Admin
+
+rectangle "Frontend\nInterface Web" as Frontend
+
+rectangle "Backend\nDjango + Django REST Framework" as Backend {
+    rectangle "Autenticação" as Auth
+    rectangle "Regras de Negócio" as Regras
+    rectangle "API REST" as API
+}
+
+database "Banco de Dados\nSQLite" as DB
+
+rectangle "Google Books API\nServiço Externo" as Google
+
+Usuario --> Frontend
+Admin --> Frontend
+
+Frontend --> API
+
+API --> Auth
+API --> Regras
+
+Regras --> DB
+Regras --> Google
+
+@enduml
