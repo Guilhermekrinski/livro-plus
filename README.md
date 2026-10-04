@@ -73,24 +73,37 @@ Desenvolver uma aplicação web para gerenciamento de biblioteca, proporcionando
 
 ---
 
-## 2. Funcionalidades
 
-*Liste as funções implementadas (ou previstas) no sistema. Marque o status de cada uma.*
+# 2. Funcionalidades
+
+As funcionalidades abaixo fazem parte da proposta do sistema e serão implementadas ao longo do desenvolvimento.
 
 | Funcionalidade | Descrição | Status |
-| --- | --- | --- |
-| [Ex.: Autenticação] | [Ex.: login, logout e recuperação de senha] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Cadastro de usuários] | [Ex.: criação e edição de perfis] | [Implementada / Em andamento / Planejada] |
-| [Ex.: Relatórios] | [Ex.: exportação em PDF] | [Implementada / Em andamento / Planejada] |
+|---|---|---|
+| Pesquisar livros | Permitir a pesquisa de livros disponíveis no sistema | Planejada |
+| Visualizar detalhes do livro | Exibir informações detalhadas sobre uma obra | Planejada |
+| Solicitar empréstimo | Permitir que o leitor solicite um empréstimo | Planejada |
+| Acompanhar empréstimos | Permitir o acompanhamento dos empréstimos realizados | Planejada |
+| Registrar avaliação | Permitir que o leitor registre uma avaliação | Planejada |
+| Acompanhar leituras | Permitir o acompanhamento do histórico de leituras | Planejada |
+| Cadastrar livro | Permitir ao administrador cadastrar novos livros | Planejada |
+| Editar livro | Permitir alterações nas informações de um livro | Planejada |
+| Excluir livro | Permitir a remoção de livros do acervo | Planejada |
+| Consultar acervo | Permitir ao administrador consultar o acervo completo | Planejada |
+| Registrar empréstimo | Registrar os empréstimos realizados | Planejada |
+| Registrar devolução | Registrar a devolução de livros | Planejada |
+| Consultar empréstimos | Permitir a consulta dos empréstimos registrados | Planejada |
+| Gerar relatório de empréstimos | Permitir a consulta organizada das movimentações | Planejada |
+| Consultar Google Books API | Buscar informações de livros por meio da API | Planejada |
 
-### Requisitos não funcionais
+## Requisitos não funcionais
 
-*Informe restrições de qualidade, quando existirem.*
-
-- **Desempenho:** [Ex.: respostas da API em menos de 2 segundos]
-- **Segurança:** [Ex.: senhas armazenadas com hash; HTTPS em produção]
-- **Usabilidade:** [Ex.: interface responsiva para desktop e celular]
-- **Disponibilidade:** [Ex.: uso em ambiente local / laboratório da disciplina]
+- **Usabilidade:** a interface deve ser simples e intuitiva.
+- **Responsividade:** o sistema deverá se adaptar a diferentes tamanhos de tela.
+- **Desempenho:** as consultas devem apresentar respostas adequadas ao uso normal da aplicação.
+- **Segurança:** informações de usuários e demais dados sensíveis deverão ser protegidos.
+- **Manutenibilidade:** o código deverá ser organizado de forma a facilitar futuras alterações.
+- **Consistência visual:** as telas deverão seguir a identidade visual definida para o Livro+.
 
 ---
 
