@@ -330,43 +330,60 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 
 ## 12. Contribuição e fluxo de trabalho
 
-*Padronize o trabalho em equipe. Ajuste as regras ao combinado da disciplina.*
+O projeto utiliza o GitHub para organização dos arquivos, controle de versões e acompanhamento da evolução do desenvolvimento.
 
-### Branches
+### Branch principal
 
-- `main` — versão estável para avaliação
-- `develop` — integração do grupo *(opcional)*
-- `feat/[nome]` — nova funcionalidade
-- `fix/[nome]` — correção de defeito
-- `docs/[nome]` — alterações só de documentação
+A branch `main` é utilizada como branch principal do projeto, concentrando a versão atual dos arquivos.
+
+### Organização do trabalho
+
+As atividades do projeto foram divididas entre os integrantes conforme as necessidades de cada etapa.
+
+Guilherme Eduardo Rodrigues Krinski ficou responsável principalmente pela análise, documentação, modelagem, arquitetura, identidade visual, prototipação, organização do repositório e desenvolvimento do projeto.
+
+Pedro Saldanha Santana participou como apoio nas atividades definidas pela equipe.
 
 ### Commits
 
-Use mensagens curtas e no imperativo, por exemplo:
+Os commits são utilizados para registrar as alterações realizadas no projeto e acompanhar sua evolução.
 
-- `feat: adiciona cadastro de reservas`
-- `fix: corrige validação de data`
-- `docs: atualiza instruções de execução`
+Entre as principais alterações realizadas estão:
 
-### Passos sugeridos
+- Atualização da documentação;
+- Criação do documento de visão;
+- Adição dos diagramas de modelagem;
+- Criação da identidade visual;
+- Adição dos protótipos;
+- Atualização do README;
+- Organização dos diretórios do projeto.
 
-1. Criar uma branch a partir de `main`.
-2. Implementar e testar localmente.
-3. Abrir um *pull request* / *merge request* para revisão do grupo.
-4. Só então integrar à branch principal.
+### Fluxo de desenvolvimento
 
-**Issues e quadro de tarefas:** [link do GitHub Projects, Trello ou similar]
+O desenvolvimento do Livro+ segue uma abordagem incremental, passando pelas seguintes etapas:
+
+1. Definição do problema e contexto;
+2. Documento de visão;
+3. Modelagem do sistema;
+4. Definição da arquitetura;
+5. Identidade visual;
+6. Prototipação;
+7. Implementação;
+8. Testes;
+9. Ajustes e preparação para entrega.
 
 ---
 
 ## 13. Histórico de versões
 
-*Registre entregas relevantes (sprints, checkpoints ou versões avaliadas).*
+O histórico de versões apresenta a evolução do projeto ao longo das etapas de desenvolvimento.
 
-| Versão | Data | Descrição |
-| --- | --- | --- |
-| `0.1.0` | [AAAA-MM-DD] | [Ex.: primeira versão executável / MVP] |
-| `0.0.1` | [AAAA-MM-DD] | [Ex.: estrutura inicial do repositório] |
+| Versão | Etapa | Descrição |
+|---|---|---|
+| `0.1.0` | Documentação e prototipação | Definição inicial do projeto, documento de visão, modelagem, arquitetura, identidade visual e protótipos |
+| `0.0.1` | Estrutura inicial | Criação e organização inicial do repositório |
+
+Novas versões serão adicionadas conforme o desenvolvimento e a implementação das funcionalidades do Livro+ avançarem.
 
 ---
 
