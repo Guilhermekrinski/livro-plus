@@ -219,16 +219,14 @@ A estrutura poderá ser ampliada durante as próximas etapas de desenvolvimento,
 
 ## 7. Participantes
 
-*Informe nome completo, função no grupo e, se houver, o identificador acadêmico (matrícula).*
+O projeto foi desenvolvido em equipe no contexto da disciplina de Desenvolvimento Web.
 
 | Nome | Matrícula | Função no projeto |
-| --- | --- | --- |
-| [Nome completo] | [000000] | [Ex.: coordenação / backend / frontend / testes / documentação] |
-| [Nome completo] | [000000] | [Ex.: backend] |
-| [Nome completo] | [000000] | [Ex.: frontend] |
-| [Nome completo] | [000000] | [Ex.: testes e documentação] |
+|---|---:|---|
+| Guilherme Eduardo Rodrigues Krinski | 22504358 | Responsável pela análise, documentação, modelagem, definição da arquitetura, identidade visual, prototipação, organização do repositório e desenvolvimento do projeto |
+| Pedro Saldanha Santana | 22509813 | Apoio nas atividades do projeto e participação nas etapas definidas pela equipe |
 
-**Professor(a) responsável:** [Nome completo]
+**Professor responsável:** Felippe Pires Ferreira
 
 ---
 
