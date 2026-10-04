@@ -1,17 +1,18 @@
 # Livro+
 
-> Substitua os trechos entre colchetes `[ ]` pelas informações reais do trabalho. Remova esta nota e as demais orientações em *itálico* antes da entrega.
+> Sistema web para gerenciamento de biblioteca e interação com leitores.
 
-[![Status](https://img.shields.io/badge/status-[em_desenvolvimento]-yellow)]()
-[![Versão](https://img.shields.io/badge/versão-[0.1.0]-blue)]()
-[![Licença](https://img.shields.io/badge/licença-[acadêmica]-lightgrey)]()
+![Status](https://img.shields.io/badge/status-em%20desenvolvimento-yellow)
+![Versão](https://img.shields.io/badge/versão-0.1.0-blue)
+![Licença](https://img.shields.io/badge/licença-acadêmica-lightgrey)
+
+## Informações acadêmicas
 
 **Instituição:** CEUB  
 **Curso:** Análise e Desenvolvimento de Sistemas  
 **Disciplina:** Desenvolvimento Web  
 **Turma / Semestre:** Turma A / 4º semestre  
 **Professor:** Felippe Pires Ferreira  
-**Status do projeto:** Em desenvolvimento
 
 ---
 
@@ -35,27 +36,40 @@
 
 ---
 
-## 1. Descrição do projeto
+# 1. Descrição do projeto
 
-*Apresente o contexto, o problema e a solução proposta. Use linguagem objetiva (dois a quatro parágrafos).*
+O **Livro+** é uma aplicação web voltada ao gerenciamento de uma biblioteca, com o objetivo de organizar o acervo de livros e facilitar a interação dos leitores com os conteúdos disponíveis.
 
-[Descreva o que o sistema faz, para quem ele se destina e qual problema ele resolve.]
+A proposta do sistema é centralizar informações sobre os livros, permitindo que os usuários pesquisem obras, visualizem seus detalhes, solicitem empréstimos e acompanhem suas atividades de leitura e empréstimos.
 
-### Objetivos
+Para os responsáveis pela biblioteca, o sistema oferece recursos para gerenciamento do acervo e controle das movimentações, tornando o processo mais organizado e facilitando o acompanhamento dos empréstimos.
 
-*Liste os objetivos gerais e específicos do projeto.*
+O projeto está sendo desenvolvido de forma incremental. Nesta primeira fase, foram definidos o contexto do sistema, os requisitos, os casos de uso, a arquitetura inicial, a identidade visual e os protótipos das principais telas.
 
-- **Objetivo geral:** [Ex.: desenvolver uma aplicação web para gerenciar reservas de laboratórios.]
-- **Objetivos específicos:**
-  - [Ex.: permitir cadastro e autenticação de usuários.]
-  - [Ex.: registrar e consultar reservas por data e laboratório.]
-  - [Ex.: gerar relatórios de ocupação.]
+## Objetivos
 
-### Público-alvo
+### Objetivo geral
 
-- [Ex.: estudantes da instituição]
-- [Ex.: professores responsáveis pelos laboratórios]
-- [Ex.: equipe administrativa]
+Desenvolver uma aplicação web para gerenciamento de biblioteca, proporcionando uma experiência simples e organizada para leitores e administradores.
+
+### Objetivos específicos
+
+- Permitir a pesquisa e consulta de livros.
+- Apresentar informações detalhadas sobre as obras.
+- Permitir a solicitação e o acompanhamento de empréstimos.
+- Permitir o registro e acompanhamento de leituras.
+- Permitir avaliações dos livros.
+- Possibilitar o gerenciamento do acervo por administradores.
+- Registrar empréstimos e devoluções.
+- Permitir a consulta do histórico de empréstimos.
+- Integrar a aplicação com a Google Books API para consulta de informações sobre livros.
+- Desenvolver uma interface simples, responsiva e consistente com a identidade visual definida para o projeto.
+
+## Público-alvo
+
+- Leitores e usuários da biblioteca.
+- Administradores e bibliotecários responsáveis pelo acervo.
+- Usuários interessados em pesquisar e acompanhar livros.
 
 ---
 
