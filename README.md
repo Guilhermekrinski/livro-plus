@@ -322,9 +322,9 @@ Este repositório segue a política de uso de IA da disciplina (semáforo pedag�
 *Preencha de forma honesta. Se não houve uso de IA, declare explicitamente.*
 
 - **Houve uso de IA neste projeto?** [Sim / Não]
-- **Ferramentas utilizadas:** [Ex.: ChatGPT, GitHub Copilot, Gemini — ou “nenhuma”]
-- **Finalidade:** [Ex.: revisão de texto, geração de esboço de testes, esclarecimento de dúvidas de sintaxe]
-- **O que NÃO foi delegado à IA:** [Ex.: definição do problema, modelagem, implementação das regras de negócio, testes finais]
+- **Ferramentas utilizadas:** : ChatGPT, Gemini.
+- **Finalidade:**: Apoio para consulta de documentação, esclarecimento de dúvidas pontuais de sintaxe e revisão gramatical/estrutural de texto.
+- **O que NÃO foi delegado à IA:**: Toda a definição do projeto, arquitetura, lógica principal, implementação do código/regras de negócio e realização dos testes finais.
 
 ---
 
