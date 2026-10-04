@@ -109,7 +109,7 @@ As funcionalidades abaixo fazem parte da proposta do sistema e serão implementa
 
 ## 3. Demonstração
 
-| A preencher na Fase 2
+| a preencher na Fase 2
 
 *Inclua capturas de tela, GIF ou link para vídeo. Coloque as imagens em `images/`.*
 
