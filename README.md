@@ -109,7 +109,7 @@ As funcionalidades abaixo fazem parte da proposta do sistema e serão implementa
 
 ## 3. Demonstração
 
-| a fazer na Fase 2
+| A fazer na Fase 2
 
 *Inclua capturas de tela, GIF ou link para vídeo. Coloque as imagens em `images/`.*
 
@@ -234,7 +234,7 @@ O projeto foi desenvolvido em equipe no contexto da disciplina de Desenvolviment
 
 ## 8. Como executar
 
-| A preencher na Fase 2
+| A fazer na Fase 2
 
 *Preencha com os comandos reais do projeto para que outra pessoa consiga reproduzir o ambiente.*
 
@@ -293,7 +293,7 @@ As instruções detalhadas de instalação e configuração serão adicionadas a
 
 ## 10. Testes
 
-| A preencher na Fase 2
+| A fazer na Fase 2
 
 *Descreva como executar os testes e o que eles cobrem.*
 
