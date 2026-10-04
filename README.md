@@ -109,6 +109,8 @@ As funcionalidades abaixo fazem parte da proposta do sistema e serão implementa
 
 ## 3. Demonstração
 
+| A preencher na Fase 2
+
 *Inclua capturas de tela, GIF ou link para vídeo. Coloque as imagens em `images/`.*
 
 ![Tela principal](images/[screenshot-principal].png)
@@ -232,6 +234,8 @@ O projeto foi desenvolvido em equipe no contexto da disciplina de Desenvolviment
 
 ## 8. Como executar
 
+| A preencher na Fase 2
+
 *Preencha com os comandos reais do projeto para que outra pessoa consiga reproduzir o ambiente.*
 
 ### Pré-requisitos
@@ -288,6 +292,8 @@ As instruções detalhadas de instalação e configuração serão adicionadas a
 ---
 
 ## 10. Testes
+
+| A preencher na Fase 2
 
 *Descreva como executar os testes e o que eles cobrem.*
 
