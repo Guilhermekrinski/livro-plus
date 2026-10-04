@@ -1,0 +1,51 @@
+@startuml
+
+left to right direction
+
+actor "Usuário/Leitor" as Leitor
+actor "Administrador/Bibliotecário" as Admin
+actor "Google Books API" as GoogleBooks
+
+rectangle "Livro+" {
+
+  usecase "Pesquisar livros" as UC01
+  usecase "Visualizar detalhes\ndo livro" as UC02
+  usecase "Solicitar empréstimo" as UC03
+  usecase "Acompanhar empréstimos" as UC04
+  usecase "Registrar avaliação" as UC05
+  usecase "Acompanhar leituras" as UC06
+
+  usecase "Cadastrar livro" as UC07
+  usecase "Editar livro" as UC08
+  usecase "Excluir livro" as UC09
+  usecase "Consultar acervo" as UC10
+  usecase "Registrar empréstimo" as UC11
+  usecase "Registrar devolução" as UC12
+  usecase "Consultar empréstimos" as UC13
+  usecase "Gerar relatório de empréstimos" as UC14
+
+  usecase "Consultar Google Books API" as UC15
+}
+
+Leitor --> UC01
+Leitor --> UC02
+Leitor --> UC03
+Leitor --> UC04
+Leitor --> UC05
+Leitor --> UC06
+
+Admin --> UC07
+Admin --> UC08
+Admin --> UC09
+Admin --> UC10
+Admin --> UC11
+Admin --> UC12
+Admin --> UC13
+Admin --> UC14
+
+GoogleBooks --> UC15
+
+UC01 --> UC15
+UC02 --> UC15
+
+@enduml
