@@ -163,7 +163,7 @@ O fluxo geral previsto para o sistema é:
 [Banco de Dados]     [Google Books API]
 ```
 
-*# 5. Decisões relevantes
+*# Decisões relevantes
 
 Durante a definição do projeto, foram tomadas algumas decisões relacionadas à tecnologia, arquitetura, funcionalidades e experiência do usuário.
 
@@ -182,42 +182,38 @@ Durante a definição do projeto, foram tomadas algumas decisões relacionadas �
 
 ---
 
-## 6. Organização dos diretórios
+### 6. Organização dos diretórios
 
-*Mantenha a árvore alinhada à estrutura real do repositório. Ajuste pastas conforme o tipo de projeto.*
+A organização do repositório foi definida para separar a documentação, os artefatos de modelagem, os protótipos e os demais recursos do projeto.
 
 ```text
 .
-├── README.md                 # Documentação principal do projeto
-├── .env.example              # Modelo de variáveis de ambiente (sem segredos)
-├── docs/                     # Modelagem e demais artefatos técnicos (PDF)
-│   ├── README.pdf            # Índice da pasta docs/
-│   └── modelagem/
-│       ├── casos-de-uso/
-│       │   └── especificacoes-casos-de-uso.pdf
-│       ├── classes/
-│       │   └── diagrama-de-classes.pdf
-│       └── banco-de-dados/
-│           ├── diagrama-er.pdf
-│           └── modelo-logico.pdf
-├── images/                   # Figuras da documentação geral (ex.: política de IA)
-├── src/                      # Código-fonte da aplicação
-│   ├── frontend/             # Interface com o usuário (quando houver)
-│   └── backend/              # Regras de negócio, API e acesso a dados (quando houver)
-├── tests/                    # Testes automatizados
-└── scripts/                  # Scripts auxiliares de setup, build ou deploy
+├── README.md
+├── docs/
+│   ├── api/
+│   ├── design/
+│   │   ├── prototipos/
+│   │   └── identidade-visual.md
+│   ├── modelagem/
+│   ├── casos-de-uso.puml
+│   └── documento-de-visao.md
+└── images/
 ```
 
 | Diretório / arquivo | Função |
-| --- | --- |
-| `README.md` | Apresentação do projeto, objetivos, tecnologias e instruções de uso |
-| `.env.example` | Lista das variáveis necessárias, sem credenciais reais |
-| `docs/` | Artefatos de análise e modelagem em PDF |
-| `docs/modelagem/` | Casos de uso, classes e modelo de dados (diagramas embutidos nos PDFs) |
-| `images/` | Figuras da documentação geral do repositório (não usar para diagramas de modelagem) |
-| `src/` | Código-fonte organizado por camada ou módulo |
-| `tests/` | Casos de teste e evidências de verificação |
-| `scripts/` | Automação de ambiente e execução |
+|---|---|
+| `README.md` | Documentação principal e apresentação do projeto |
+| `docs/` | Organização dos documentos e artefatos técnicos |
+| `docs/api/` | Documentação relacionada às APIs utilizadas no projeto |
+| `docs/design/` | Documentação relacionada ao design e à identidade visual |
+| `docs/design/prototipos/` | Armazenamento dos protótipos das principais telas |
+| `docs/design/identidade-visual.md` | Documentação da identidade visual do Livro+ |
+| `docs/modelagem/` | Artefatos relacionados à análise e modelagem do sistema |
+| `docs/casos-de-uso.puml` | Diagrama de casos de uso desenvolvido em PlantUML |
+| `docs/documento-de-visao.md` | Documento de visão e definição inicial do projeto |
+| `images/` | Imagens e recursos visuais utilizados na documentação |
+
+A estrutura poderá ser ampliada durante as próximas etapas de desenvolvimento, conforme novos componentes e documentos forem adicionados ao projeto.
 
 ---
 
