@@ -389,41 +389,66 @@ Novas versões serão adicionadas conforme o desenvolvimento e a implementação
 
 ## 14. Limitações e próximos passos
 
-### Problemas conhecidos
+### Limitações atuais
 
-- [Ex.: a recuperação de senha ainda não envia e-mail]
-- [Ex.: o layout quebra em telas menores que 360 px]
+O Livro+ encontra-se atualmente nas etapas de planejamento, documentação, modelagem e prototipação.
 
-### Roadmap
+Nesta etapa, algumas funcionalidades ainda não foram implementadas, incluindo:
 
-- [ ] [Ex.: autenticação com dois fatores]
-- [ ] [Ex.: exportação de relatórios em CSV]
-- [ ] [Ex.: implantação em ambiente de homologação]
+- Banco de dados da aplicação;
+- Autenticação e controle de acesso;
+- Gerenciamento completo do acervo;
+- Sistema de empréstimos e devoluções;
+- Registro de avaliações e acompanhamento de leituras;
+- Integração com a Google Books API;
+- Testes automatizados.
+
+### Próximos passos
+
+As próximas etapas previstas para o desenvolvimento do Livro+ são:
+
+1. Configuração do ambiente de desenvolvimento;
+2. Criação da estrutura inicial do projeto em Django;
+3. Implementação do banco de dados;
+4. Implementação da autenticação e dos perfis de usuário;
+5. Desenvolvimento das funcionalidades do sistema;
+6. Integração com a Google Books API;
+7. Implementação das interfaces definidas nos protótipos;
+8. Realização dos testes;
+9. Correção de problemas e ajustes de usabilidade;
+10. Preparação da versão final do sistema.
 
 ---
 
 ## 15. Licença, referências e contato
 
-**Licença:** [Ex.: uso exclusivamente acadêmico / MIT / outro]
+### Licença
 
-Este material destina-se a fins educacionais. Verifique com a disciplina se o código pode ser reutilizado fora do curso.
+Este projeto foi desenvolvido para fins acadêmicos na disciplina de Desenvolvimento Web do Centro Universitário de Brasília (CEUB).
 
 ### Documentação complementar
 
-- Índice da pasta `docs/`: [`docs/README.pdf`](docs/README.pdf)
-- Casos de uso (diagrama + especificações): [`docs/modelagem/casos-de-uso/especificacoes-casos-de-uso.pdf`](docs/modelagem/casos-de-uso/especificacoes-casos-de-uso.pdf)
-- Diagrama de classes: [`docs/modelagem/classes/diagrama-de-classes.pdf`](docs/modelagem/classes/diagrama-de-classes.pdf)
-- Modelo conceitual (ER): [`docs/modelagem/banco-de-dados/diagrama-er.pdf`](docs/modelagem/banco-de-dados/diagrama-er.pdf)
-- Modelo lógico: [`docs/modelagem/banco-de-dados/modelo-logico.pdf`](docs/modelagem/banco-de-dados/modelo-logico.pdf)
-- Apresentação: [`docs/apresentacao.pdf`](docs/)
+Os principais documentos e artefatos do projeto estão organizados na pasta `docs/`, incluindo:
+
+- Documento de visão;
+- Diagramas de modelagem;
+- Identidade visual;
+- Protótipos das telas;
+- Documentos relacionados à arquitetura e ao planejamento do sistema.
 
 ### Referências
 
-- [Autor. Título. Ano. URL ou dados bibliográficos.]
-- [Documentação oficial da tecnologia X.]
+- Documentação oficial do Python;
+- Documentação oficial do Django;
+- Documentação da Google Books API;
+- Documentação do GitHub;
+- Materiais e orientações disponibilizados na disciplina de Desenvolvimento Web.
 
 ### Contato
 
-Dúvidas sobre o projeto: [e-mail institucional do grupo ou issue no repositório]
-
-**Agradecimentos:** [Ex.: professor(a), monitoria, materiais da disciplina]
+**Guilherme Eduardo Rodrigues Krinski**  
+**Matrícula:** 22504358  
+**Curso:** Análise e Desenvolvimento de Sistemas  
+**Instituição:** CEUB  
+**Disciplina:** Desenvolvimento Web  
+**Professor:** Felippe Pires Ferreira
