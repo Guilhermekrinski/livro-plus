@@ -122,48 +122,62 @@ As funcionalidades abaixo fazem parte da proposta do sistema e serão implementa
 
 ---
 
-## 4. Tecnologias utilizadas
+# 4. Tecnologias utilizadas
 
-*Informe as tecnologias de fato usadas no projeto. Remova as linhas que não se aplicarem.*
+As tecnologias previstas para o desenvolvimento do projeto são:
 
-| Camada | Tecnologia | Versão |
-| --- | --- | --- |
-| Linguagem | [Ex.: Python, Java, TypeScript] | [Ex.: 3.12] |
-| Frontend | [Ex.: HTML, CSS, React] | [Ex.: 18] |
-| Backend | [Ex.: Flask, Spring Boot, Node.js] | [Ex.: 3.x] |
-| Banco de dados | [Ex.: PostgreSQL, SQLite, MongoDB] | [Ex.: 16] |
-| Testes | [Ex.: pytest, JUnit, Jest] | [Ex.: 8] |
-| Infraestrutura | [Ex.: Docker, GitHub Actions] | — |
-| Outras ferramentas | [Ex.: Git, Figma, Postman] | — |
+| Camada | Tecnologia | Finalidade |
+|---|---|---|
+| Backend | Python | Desenvolvimento da lógica da aplicação |
+| Framework | Django | Estruturação da aplicação web |
+| API | Django REST Framework | Desenvolvimento da API REST |
+| Frontend | HTML, CSS e JavaScript | Construção e estilização da interface |
+| Banco de dados | SQLite | Persistência inicial dos dados |
+| API externa | Google Books API | Consulta de informações sobre livros |
+| Modelagem | PlantUML | Criação dos diagramas do sistema |
+| Versionamento | Git / GitHub | Controle de versões e organização do projeto |
+| Prototipação | Ferramenta de prototipação | Criação dos protótipos das telas |
+
+As tecnologias serão utilizadas de acordo com as necessidades de cada etapa do desenvolvimento. A implementação dessas tecnologias será realizada nas próximas fases do projeto.
 
 ---
 
-## 5. Arquitetura
+# 5. Arquitetura
 
-*Explique como o sistema está organizado: camadas, principais componentes e o fluxo entre eles. Inclua um diagrama no PDF de arquitetura ou de classes em `docs/` e descreva-o em texto.*
+O Livro+ será desenvolvido como uma aplicação web utilizando o Django como framework principal. A arquitetura foi planejada de forma a separar a interface, as regras de negócio, a persistência dos dados e as integrações externas.
 
-[Ex.: a solução segue uma arquitetura em camadas (apresentação, aplicação, domínio e persistência). O frontend consome uma API REST. O backend aplica as regras de negócio e persiste os dados no banco.]
+O fluxo geral previsto para o sistema é:
 
 ```text
-[Usuário] → [Interface / Frontend] → [API / Backend] → [Banco de dados]
-```
+[Usuário / Leitor]
+        |
+        v
+[Interface Web]
+        |
+        v
+[Django / Backend]
+        |
+        +--------------------+
+        |                    |
+        v                    v
+[Banco de Dados]     [Google Books API]
 
-**Decisões relevantes:**
+*# 5. Decisões relevantes
 
-- [Ex.: uso de API REST para separar cliente e servidor.]
-- [Ex.: persistência relacional porque os dados possuem relacionamentos bem definidos.]
+Durante a definição do projeto, foram tomadas algumas decisões relacionadas à tecnologia, arquitetura, funcionalidades e experiência do usuário.
 
-### Endpoints principais (quando houver API)
-
-| Método | Rota | Descrição |
-| --- | --- | --- |
-| `POST` | `/api/[recurso]` | [Ex.: criar um registro] |
-| `GET` | `/api/[recurso]` | [Ex.: listar registros] |
-| `GET` | `/api/[recurso]/{id}` | [Ex.: obter um registro] |
-| `PUT` | `/api/[recurso]/{id}` | [Ex.: atualizar um registro] |
-| `DELETE` | `/api/[recurso]/{id}` | [Ex.: remover um registro] |
-
-Documentação completa da API: [link para Swagger, Postman ou `docs/api.md`]
+| Decisão | Justificativa |
+|---|---|
+| Utilização do Django | Framework escolhido para estruturar o desenvolvimento da aplicação web e organizar a lógica do sistema. |
+| Utilização de Python | Linguagem prevista para o desenvolvimento do backend da aplicação. |
+| Integração com a Google Books API | Permitir a consulta de informações sobre livros e complementar os dados disponíveis no sistema. |
+| Separação entre frontend e backend | Facilitar a organização, manutenção e evolução da aplicação. |
+| Desenvolvimento de uma aplicação web | Permitir acesso ao sistema por diferentes dispositivos através de um navegador. |
+| Definição de diferentes perfis de usuário | Separar as funcionalidades destinadas aos leitores das funcionalidades administrativas da biblioteca. |
+| Criação de identidade visual própria | Garantir uma interface consistente e facilitar a identificação do projeto Livro+. |
+| Desenvolvimento de protótipos antes da implementação | Permitir validar a estrutura e a organização das principais telas antes da etapa de desenvolvimento. |
+| Utilização do GitHub | Facilitar o controle de versões, organização dos arquivos e acompanhamento da evolução do projeto. |
+| Desenvolvimento incremental | Permitir que o sistema seja construído em etapas, começando pela documentação, modelagem e prototipação. |
 
 ---
 
