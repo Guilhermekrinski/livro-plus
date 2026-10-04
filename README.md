@@ -271,16 +271,20 @@ cp .env.example .env
 
 ## 9. Configuração
 
-*Liste as variáveis de ambiente usadas pelo sistema. Nunca publique senhas, tokens ou chaves neste arquivo.*
+Nesta etapa do projeto, as configurações da aplicação estão sendo definidas para orientar a futura implementação do sistema.
 
-| Variável | Obrigatória | Descrição | Exemplo |
-| --- | --- | --- | --- |
-| `PORT` | Sim | Porta da aplicação | `3000` |
-| `DATABASE_URL` | Sim | Conexão com o banco | `postgresql://user:senha@localhost:5432/app` |
-| `SECRET_KEY` | Sim | Chave de sessão / JWT | `[gerar localmente]` |
+As principais configurações previstas são:
 
-Credenciais reais devem ficar apenas no arquivo `.env` (não versionado).
+| Configuração | Finalidade |
+|---|---|
+| Banco de dados | Armazenar os dados de usuários, livros, empréstimos, avaliações e demais informações do sistema |
+| Google Books API | Consultar informações complementares sobre livros |
+| Django | Estruturar o backend e as regras da aplicação |
+| Variáveis de ambiente | Armazenar configurações e informações sensíveis de forma segura |
 
+As credenciais da Google Books API, chaves de segurança e demais informações sensíveis não deverão ser armazenadas diretamente no repositório.
+
+As instruções detalhadas de instalação e configuração serão adicionadas ao projeto durante a etapa de implementação.
 ---
 
 ## 10. Testes
